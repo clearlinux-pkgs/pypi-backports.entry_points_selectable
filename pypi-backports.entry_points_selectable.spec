@@ -17,7 +17,7 @@ BuildRequires : buildreq-distutils3
 Provides: backports.entry_points_selectable
 Provides: backports.entry_points_selectable-python
 Provides: backports.entry_points_selectable-python3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(importlib_metadata)
 BuildRequires : pypi(setuptools)
@@ -26,7 +26,7 @@ BuildRequires : pytest
 BuildRequires : setuptools
 BuildRequires : setuptools_scm
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 .. image:: https://img.shields.io/pypi/v/backports.entry_points_selectable.svg
