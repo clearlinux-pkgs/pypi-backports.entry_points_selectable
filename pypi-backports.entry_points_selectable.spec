@@ -23,8 +23,6 @@ BuildRequires : pypi(importlib_metadata)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
 BuildRequires : pytest
-BuildRequires : setuptools
-BuildRequires : setuptools_scm
 BuildRequires : tox
 BuildRequires : pypi(virtualenv)
 
