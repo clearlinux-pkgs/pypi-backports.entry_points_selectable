@@ -4,7 +4,7 @@
 #
 Name     : pypi-backports.entry_points_selectable
 Version  : 1.1.1
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/71/16/edd003270daaab0168f7dbac6e22b055322e9ba66fb2cc951f58d1ed158b/backports.entry_points_selectable-1.1.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/71/16/edd003270daaab0168f7dbac6e22b055322e9ba66fb2cc951f58d1ed158b/backports.entry_points_selectable-1.1.1.tar.gz
 Summary  : Compatibility shim providing selectable entry points for older implementations
@@ -14,7 +14,6 @@ Requires: pypi-backports.entry_points_selectable-license = %{version}-%{release}
 Requires: pypi-backports.entry_points_selectable-python = %{version}-%{release}
 Requires: pypi-backports.entry_points_selectable-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pypi(importlib_metadata)
 BuildRequires : pypi(py)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
@@ -49,7 +48,6 @@ Summary: python3 components for the pypi-backports.entry_points_selectable packa
 Group: Default
 Requires: python3-core
 Provides: pypi(backports.entry_points_selectable)
-Requires: pypi(importlib_metadata)
 
 %description python3
 python3 components for the pypi-backports.entry_points_selectable package.
@@ -64,7 +62,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1642462995
+export SOURCE_DATE_EPOCH=1649717292
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
