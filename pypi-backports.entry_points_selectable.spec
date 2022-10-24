@@ -4,7 +4,7 @@
 #
 Name     : pypi-backports.entry_points_selectable
 Version  : 1.2.0
-Release  : 22
+Release  : 23
 URL      : https://files.pythonhosted.org/packages/a9/bf/2a7a454f330177a075a69ecfd56b4af66c086145f33fe25860597fecebb1/backports.entry_points_selectable-1.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a9/bf/2a7a454f330177a075a69ecfd56b4af66c086145f33fe25860597fecebb1/backports.entry_points_selectable-1.2.0.tar.gz
 Summary  : Compatibility shim providing selectable entry points for older implementations
